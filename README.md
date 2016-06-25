@@ -1,4 +1,4 @@
-[alt text](http://assets1.ignimgs.com/thumbs/userUploaded/2015/7/13/skeletorjpg-e940101280w-1436825130248_270h.jpg "Skeletor")
+![skeletor](http://1.bp.blogspot.com/-xhO37UIAjes/T_8U6jCCF_I/AAAAAAAACMI/evU0iM17b3A/s1600/he-manskeletorgunshow.png "Skeletor")
 
 ### Quickstart
 
