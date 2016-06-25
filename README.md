@@ -1,3 +1,5 @@
+[alt text](http://assets1.ignimgs.com/thumbs/userUploaded/2015/7/13/skeletorjpg-e940101280w-1436825130248_270h.jpg "Skeletor")
+
 ### Quickstart
 
 1.  `bundle install`
