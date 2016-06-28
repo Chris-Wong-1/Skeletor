@@ -12,3 +12,8 @@ post '/users' do
 		redirect '/users/new'
 	end
 end
+
+get '/users/:id' do
+  "Welcome to your profile page"
+
+end
