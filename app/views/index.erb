@@ -1,6 +1,7 @@
 <div>
-  <h1>Hello world!</h1>
+  <h1>Home page</h1>
   <% if session[:user_id] %>
+    <a href="/users/<%=session[:user_id]%>">Profile page</a><br>
     <a href="/sessions/delete">Log out</a><br>
   <% else %>
     <a href="/users/new">Sign up</a><br>
