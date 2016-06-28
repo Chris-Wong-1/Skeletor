@@ -6,7 +6,9 @@ end
 post '/sessions' do
 	@user = User.find_by(email: params[:email])
 	if @user && @user.password == params[:password]
+		# if @user && @user.authenticate?(params[:password])
 		session[:user_id] = @user.id
+		# login(@user)
 		redirect "/users/#{session[:user_id]}"
 	else
 		@error = "Email and password do not match"
@@ -16,6 +18,7 @@ end
 
 get '/sessions/delete' do
 	session[:user_id] = nil
-	current_user = nil
+  current_user = nil
+
 	erb :'index'
 end
